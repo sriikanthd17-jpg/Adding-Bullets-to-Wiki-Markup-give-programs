@@ -1,0 +1,12 @@
+def add_bullets(text):
+    lines = text.split('\n')
+    for line in lines:
+        print("* " + line)
+
+# Example input
+text = """Apples
+Bananas
+Oranges
+Grapes"""
+
+add_bullets(text)
